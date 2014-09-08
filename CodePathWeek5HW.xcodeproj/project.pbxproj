@@ -12,6 +12,13 @@
 		194ED01119BD5A5D008A49EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 194ED00F19BD5A5D008A49EB /* Main.storyboard */; };
 		194ED01319BD5A5D008A49EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 194ED01219BD5A5D008A49EB /* Images.xcassets */; };
 		194ED01F19BD5A5D008A49EB /* CodePathWeek5HWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194ED01E19BD5A5D008A49EB /* CodePathWeek5HWTests.swift */; };
+		194ED02919BD5E45008A49EB /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194ED02819BD5E45008A49EB /* TabBarViewController.swift */; };
+		194ED02B19BD5E9A008A49EB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194ED02A19BD5E9A008A49EB /* HomeViewController.swift */; };
+		194ED02E19BD5F90008A49EB /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194ED02D19BD5F90008A49EB /* SearchViewController.swift */; };
+		194ED03019BD5F9B008A49EB /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194ED02F19BD5F9B008A49EB /* ComposeViewController.swift */; };
+		194ED03219BD5FA9008A49EB /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194ED03119BD5FA9008A49EB /* AccountViewController.swift */; };
+		194ED03419BD5FB5008A49EB /* TrendingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194ED03319BD5FB5008A49EB /* TrendingViewController.swift */; };
+		194ED03619BD7F47008A49EB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194ED03519BD7F47008A49EB /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,13 @@
 		194ED01819BD5A5D008A49EB /* CodePathWeek5HWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodePathWeek5HWTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		194ED01D19BD5A5D008A49EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		194ED01E19BD5A5D008A49EB /* CodePathWeek5HWTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodePathWeek5HWTests.swift; sourceTree = "<group>"; };
+		194ED02819BD5E45008A49EB /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		194ED02A19BD5E9A008A49EB /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		194ED02D19BD5F90008A49EB /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		194ED02F19BD5F9B008A49EB /* ComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
+		194ED03119BD5FA9008A49EB /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		194ED03319BD5FB5008A49EB /* TrendingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrendingViewController.swift; sourceTree = "<group>"; };
+		194ED03519BD7F47008A49EB /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +89,7 @@
 		194ED00819BD5A5D008A49EB /* CodePathWeek5HW */ = {
 			isa = PBXGroup;
 			children = (
+				194ED02C19BD5F7B008A49EB /* ViewControllers */,
 				194ED00B19BD5A5D008A49EB /* AppDelegate.swift */,
 				194ED00D19BD5A5D008A49EB /* ViewController.swift */,
 				194ED00F19BD5A5D008A49EB /* Main.storyboard */,
@@ -107,6 +122,20 @@
 				194ED01D19BD5A5D008A49EB /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		194ED02C19BD5F7B008A49EB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				194ED02A19BD5E9A008A49EB /* HomeViewController.swift */,
+				194ED02819BD5E45008A49EB /* TabBarViewController.swift */,
+				194ED02D19BD5F90008A49EB /* SearchViewController.swift */,
+				194ED02F19BD5F9B008A49EB /* ComposeViewController.swift */,
+				194ED03119BD5FA9008A49EB /* AccountViewController.swift */,
+				194ED03319BD5FB5008A49EB /* TrendingViewController.swift */,
+				194ED03519BD7F47008A49EB /* LoginViewController.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,8 +237,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				194ED03619BD7F47008A49EB /* LoginViewController.swift in Sources */,
+				194ED02E19BD5F90008A49EB /* SearchViewController.swift in Sources */,
+				194ED03419BD5FB5008A49EB /* TrendingViewController.swift in Sources */,
 				194ED00E19BD5A5D008A49EB /* ViewController.swift in Sources */,
+				194ED03219BD5FA9008A49EB /* AccountViewController.swift in Sources */,
+				194ED02919BD5E45008A49EB /* TabBarViewController.swift in Sources */,
+				194ED03019BD5F9B008A49EB /* ComposeViewController.swift in Sources */,
 				194ED00C19BD5A5D008A49EB /* AppDelegate.swift in Sources */,
+				194ED02B19BD5E9A008A49EB /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
